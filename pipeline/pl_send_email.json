@@ -155,6 +155,7 @@
 			},
 			{
 				"name": "Send Email",
+				"description": "Send a request to logic apps",
 				"type": "WebActivity",
 				"dependsOn": [
 					{
