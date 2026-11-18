@@ -18,14 +18,15 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
 
 - **Ingestion** — Azure Data Factory, driven by metadata rather than one
   pipeline per table.
-   <img src="Assets/adf/pl_Master.png" width="700" alt="pl_Master">
+  <p align="center">
+  <img src="Assets/adf/pl_Master.png" width="48%" alt="pl_Master">
+  &nbsp;&nbsp;
+  <img src="Assets/adf/pl_source_to_silver_inner.png" width="48%" alt="pl_source_to_silver_inner">
+  </p>
 
   <details>
     <summary>📸 <i> Click to view other Pipelines </i> </summary>
     <br>
-    
-    **pl_source_to_silver_inner**  
-    <img src="Assets/adf/pl_source_to_silver_inner.png" width="700" alt="pl_source_to_silver_inner">
     
     **adf_pipeline_monitor**  
     <img src="Assets/adf/adf_pipeline_monitor.png" width="700" alt="adf_pipeline_monitor">
@@ -88,6 +89,12 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
 - **Automated auditing &amp; alerting** — every stage of every run is logged,
   and a status email (with a dynamic subject and an HTML results table) goes
   out automatically via Azure Logic Apps, whether the run succeeds or fails.
+  <p align="center">
+  <img src="Assets/ctrl/audit_log.pn" width="48%" alt="audit_log">
+  &nbsp;&nbsp;
+  <img src="Assets/gmail_notification/gmail_notification.png" width="50%" alt="gmail_notification">
+  </p>
+  
 - **Governed, credential-less storage access** — Unity Catalog storage
   credentials and managed identities throughout; no account keys or
   passwords in any pipeline definition.
