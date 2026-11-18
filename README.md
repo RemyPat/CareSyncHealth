@@ -90,7 +90,7 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
   and a status email (with a dynamic subject and an HTML results table) goes
   out automatically via Azure Logic Apps, whether the run succeeds or fails.
   <p align="center">
-  <img src="Assets/ctrl/audit_log.pn" width="48%" alt="audit_log">
+  <img src="Assets/ctrl/audit_log.png" width="48%" alt="audit_log">
   &nbsp;&nbsp;
   <img src="Assets/gmail_notification/gmail_notification.png" width="50%" alt="gmail_notification">
   </p>
