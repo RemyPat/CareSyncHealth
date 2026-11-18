@@ -92,7 +92,7 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
   <p align="center">
   <img src="Assets/ctrl/audit_log.png" width="48%" alt="audit_log">
   &nbsp;&nbsp;
-  <img src="Assets/gmail_notification/gmail_notification.png" width="50%" alt="gmail_notification">
+  <img src="Assets/gmail_notification/gmail_notification.png" width="48%" alt="gmail_notification">
   </p>
   
 - **Governed, credential-less storage access** — Unity Catalog storage
