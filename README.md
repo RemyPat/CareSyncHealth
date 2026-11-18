@@ -21,7 +21,7 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
    <img src="Assets/adf/pl_Master.png" width="700" alt="pl_Master">
 
   <details>
-    <summary>📸 Click to view other Pipelines</summary>
+    <summary>📸 <i> Click to view other Pipelines </i> </summary>
     <br>
     
     **pl_source_to_silver_inner**  
@@ -50,7 +50,22 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
   holding the control/metadata and audit tables.  
 - **Governance &amp; Security** — Unity Catalog, Azure Key Vault, and Azure
   Logic Apps for automated email notifications.  
-  <img src="Assets/logic apps/logic_apps.png" width="700" alt="logic_apps">
+  <details>
+    <summary> 📸 <i> Click to view Logic Apps, Azure Key Vault and email notification </i> </summary>
+    <br>
+    
+    **logic_apps**  
+    <img src="Assets/logic apps/logic_apps.png" width="700" alt="logic_apps">
+    
+    **Gmail notification**  
+    <img src="Assets/gmail_notification/gmail_notification.png" width="700" alt="gmail_notification">
+    
+    **Key Vault**  
+    <img src="Assets/adf/key_vault.png" width="700" alt="key_vault">
+    
+  </details>
+
+  
 - **CI/CD** — GitHub, for both the Azure Data Factory and Databricks repos.
 - **Consumption** — Databricks AI/BI Dashboards, Genie Agents, and Genie ONE.  
   <img src="Assets/adb/dashboard/Screenshot 2026-11-15 at 21.51.46.png" width="700" alt="Databricks Dashboard">
@@ -63,6 +78,7 @@ CI/CD wrapped around the pipeline rather than sitting inside it:
   ingests every source, relational or file-based, based on rows in a SQL
   control table. Onboarding a new source means adding a row, not writing a
   new pipeline.
+    
     <img src="Assets/ctrl/table_config.png" width="700" alt="control_table">
 - **Full and incremental loads** — full-reload, append, and watermark-based
   merge load strategies, all handled by the same generic notebooks.
