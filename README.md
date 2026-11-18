@@ -10,7 +10,7 @@ every run automatically audited and reported by email.
 
 ## Architecture
 
-![CareSync end-to-end architecture](<Assets/CareSync Data Pipeline Animation.gif>)
+<img src="Assets/CareSync Data Pipeline Animation.gif" width="550" alt="CareSync end-to-end architecture">
 
 Data flows from the source systems on the left through ingestion,
 transformation, and out to consumption, with orchestration, governance, and
